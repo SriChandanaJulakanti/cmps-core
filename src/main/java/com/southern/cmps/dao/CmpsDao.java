@@ -7,8 +7,8 @@ import com.southern.cmps.domain.Student;
 
 public interface CmpsDao {
 	
-	public Student getStudentDetail();
-	
 	public List<Concentration> getConcentrations();
+
+	Student getStudentDetail(String uNumber);
 
 }
